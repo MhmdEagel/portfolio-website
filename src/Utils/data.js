@@ -1,28 +1,40 @@
 const clients = () => {
     return [
         {
-            mobileImg: "/clients/mobile/1.jpg",
+            id: 1,
             webImg: '/clients/1.jpg',
-            name: "johanna jameson",
+            name: "Amelia Watson",
             job: "Designer"
         },
         {
-            mobileImg: "/clients/mobile/2.jpg",
+            id: 2,
             webImg: '/clients/2.jpg',
             name: "asep luther",
             job: "Mobile Developer"
         },
         {
-            mobileImg: "/clients/mobile/3.jpg",
+            id: 3,
             webImg: '/clients/3.jpg',
-            name: "john smith",
+            name: "bambang sugeni",
             job: "UI/UX Expert"
         },
         {
-            mobileImg: "/clients/mobile/4.jpg",
+            id: 4,
             webImg: '/clients/4.jpg',
-            name: "budi setiawan",
-            job: "CEO Of XX Co."
+            name: "farhan kebab",
+            job: "CEO Of Kebab Inc."
+        },
+        {
+            id: 5,
+            webImg: '/clients/5.jpg',
+            name: "christine",
+            job: "Team Lead Manager"
+        },
+        {
+            id: 6,
+            webImg: '/clients/6.jpg',
+            name: "suci smith",
+            job: "Data Analyst"
         },
     ]
 }
