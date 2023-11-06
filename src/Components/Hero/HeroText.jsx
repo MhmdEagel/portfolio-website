@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HeroText() {
   return (
-    <div className="mt-4 max-w-sm lg:max-w-xl mx-auto">
+    <div className="mt-4 max-w-sm lg:max-w-xl mx-auto px-4">
       <div className="text-2xl lg:text-4xl font-bold w-fit mb-4">
         <p>FULL STACK DEVELOPER</p>
         <p>PROFESSIONAL WEB DEVELOPER.</p>

@@ -1,8 +1,10 @@
 import React from 'react'
-import Layout from './Components/Layout'
 import { BrowserRouter, Route, Routes,  } from 'react-router-dom';
-import Home from './Page/Home';
 
+import Layout from './Components/Layout'
+import Home from './Page/Home';
+import About from './Page/About';
+import Store from './Page/Store';
 
 export default function App() {
   return (
@@ -10,7 +12,8 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path='works' element={<h1>Hello World!</h1>} />
+          <Route path='about' element={<About />} />
+          <Route path='store' element={<Store />} />
         </Route>
       </Routes>
     </BrowserRouter>
